@@ -1,27 +1,27 @@
-* {
-  font-family: 'Stretch Pro', sans-serif;
-}
-
 .app {
-  background: linear-gradient(30deg, rgba(0, 0, 0) 20%, rgba(5, 0, 255, .70) 55%, #ADFF00);
-  animation: gradient 15s ease infinite;
-  // background-size: 150% 150%;
-  padding: 6rem;
-  height: 100vh;
+  padding: 0 6rem 6rem 6rem;
+  height: inherit;
+  width: inherit;
   box-sizing:border-box;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 60%;
-	}
-	50% {
-		background-position: 100% 60%;
-	}
-	100% {
-		background-position: 0% 60%;
-	}
+#header {
+  position: fixed;
+  width: inherit;
+  right: 0;
+  left: 0;
+  padding: 0 6rem;
+  z-index: 2;
+  padding-top: 6rem;
+  padding-bottom: 1.8rem;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 20px 12px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  position: absolute;
+  bottom: 4rem;
 }

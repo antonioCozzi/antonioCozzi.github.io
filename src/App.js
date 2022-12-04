@@ -5,7 +5,12 @@ import Homepage from './components/homepage/homepage';
 function App() {
   return (
     <div className="app">
-      <Header />
+      <div id='header'>
+        <Header />
+      </div>
+      <section>
+        <Homepage />
+      </section>
       <section>
         <Homepage />
       </section>
