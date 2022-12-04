@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .occupation {
+        border: 2px solid #fff;
+        border-radius: 25px;
+        padding: 10px 40px;
+        font-size: 0.8rem;
+
+        span {
+            color: #fff;
+        }
+    }
+
+    .year {
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    hr {
+        border: 1px solid #fff;
+        flex-grow: 1;
+        margin: 0 22px;
+    }
+}

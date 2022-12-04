@@ -6,56 +6,12 @@
   background: linear-gradient(30deg, rgba(0, 0, 0) 20%, rgba(5, 0, 255, .70) 55%, #ADFF00);
   animation: gradient 15s ease infinite;
   // background-size: 150% 150%;
-  height: 100vh;
   padding: 6rem;
+  height: 100vh;
   box-sizing:border-box;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  .occupation {
-    border: 2px solid #fff;
-    border-radius: 25px;
-    padding: 10px 40px;
-    font-size: 0.8rem;
-
-    span {
-      color: #fff;
-    }
-  }
-
-  .year {
-    color: #fff;
-    font-size: 1rem;
-  }
-
-  hr {
-    border: 1px solid #fff;
-    flex-grow: 1;
-    margin: 0 22px;
-  }
-}
-
-.name {
-  h1, p {
-    color: #fff;
-    margin: 0;
-    font-size: 6rem;
-  }
-
-  .surname {
-    display: flex;
-    
-    p {
-      color: #ADFF00;
-    }
-  }
 }
 
 @keyframes gradient {
