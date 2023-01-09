@@ -1,0 +1,13 @@
+.contacts-container {
+    padding: 1.4em 0;
+
+    a {
+        color: #fff;
+        font-size: 1.2rem;
+        text-decoration: none;
+
+        &:hover {
+            color: #ADFF00;
+        }
+    }
+}

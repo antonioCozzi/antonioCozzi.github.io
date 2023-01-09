@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react';
 import './App.scss';
+import Contacts from './components/contacts/contacts';
+import Education from './components/edcucation/education';
 import Header from './components/header';
 import Homepage from './components/homepage/homepage';
+import Languages from './components/languages/languages';
 import Section from './components/section/section';
-import Education from './components/edcucation/education';
+import Skills from './components/skills/skills';
 import WorkExperience from './components/work-experience/work-experience';
 
 function App() {
@@ -70,7 +73,17 @@ function App() {
       </section>
       <section>
         <Section isStarEmpty title={'Skillss'}>
-
+          <Skills/>
+        </Section>
+      </section>
+      <section>
+        <Section isStarEmpty title={'Laanguages'}>
+          <Languages/>
+        </Section>
+      </section>
+      <section>
+        <Section isStarEmpty title={'Contactts'}>
+          <Contacts/>
         </Section>
       </section>
     </div>
