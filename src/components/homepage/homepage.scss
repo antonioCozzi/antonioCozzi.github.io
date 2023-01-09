@@ -1,5 +1,13 @@
-.name {
+.container {
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 90vw;
+}
 
+.name {
     h1,
     p {
         color: #fff;

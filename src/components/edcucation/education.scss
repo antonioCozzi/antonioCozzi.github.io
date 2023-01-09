@@ -1,0 +1,30 @@
+.education-container {
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
+
+    .education-period {
+        flex: 0.3;
+        color: #ADFF00;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .education-body {
+        flex: 0.7;
+        display: flex;
+        flex-direction: column;
+
+        span:first-of-type {
+            color: #ADFF00;
+            font-size: 1.4rem;
+            line-height: 2rem;
+        }
+
+        span {
+            color: white;
+            font-size: 1.4rem;
+            line-height: 2rem;
+        }
+    }
+}

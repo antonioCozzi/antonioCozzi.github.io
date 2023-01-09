@@ -1,0 +1,26 @@
+article {
+    margin: 1em 0;
+}
+
+.work-experience-title {
+    color: #ADFF00;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: row;
+
+    span:first-of-type {
+        flex: 0.3;
+    }
+
+    span:nth-child(2) {
+        flex: 0.7;
+    }
+}
+
+.work-experience-description {
+    margin-top: 0.6rem;
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
