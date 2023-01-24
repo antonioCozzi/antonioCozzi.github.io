@@ -1,23 +1,21 @@
 * {
-  font-family: 'Stretch Pro', sans-serif;
+	font-family: 'Stretch Pro', sans-serif;
 }
 
 html,
 body {
-  margin: 0;
-  background: linear-gradient(30deg, rgba(0, 0, 0) 20%, rgba(80, 80, 255, .70) 55%, #ADFF00);
-  background-attachment:fixed;
-  animation: gradient 15s ease infinite;
-  /* background-size: 150% 150%; */
+	margin: 0;
 }
 
 @keyframes gradient {
 	0% {
 		background-position: 0% 60%;
 	}
+
 	50% {
 		background-position: 100% 60%;
 	}
+
 	100% {
 		background-position: 0% 60%;
 	}

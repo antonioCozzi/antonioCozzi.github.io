@@ -6,7 +6,7 @@ function Homepage() {
             <div className='name'>
                 <h1>Antonio</h1>
                 <div className='surname'>
-                <p>Coz&zwnj;zi</p>
+                    <p>Coz&zwnj;zi</p>
                 </div>
             </div>
             <div className='pic-container'>

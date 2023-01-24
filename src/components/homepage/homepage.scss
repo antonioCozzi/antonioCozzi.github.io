@@ -1,3 +1,5 @@
+@import '../../device-sizes.scss';
+
 .container {
     padding-bottom: 4rem;
     display: flex;
@@ -5,6 +7,16 @@
     justify-content: space-between;
     align-items: flex-end;
     width: 90vw;
+
+    @include phone {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    @include tablet {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
 }
 
 .name {
@@ -13,6 +25,10 @@
         color: #fff;
         margin: 0;
         font-size: 6rem;
+
+        @include phone {
+            font-size: 4.2rem;
+        }
     }
 
     .surname {
@@ -21,5 +37,21 @@
         p {
             color: #ADFF00;
         }
+    }
+}
+
+.pic-container {
+    width: 400px;
+
+    @include phone {
+        width: 100vw;
+        margin-bottom: 40px;
+    }
+
+    @include tablet {
+        width: 66vw;
+        display: flex;
+        margin-left: auto;
+        margin-bottom: 20px;
     }
 }
