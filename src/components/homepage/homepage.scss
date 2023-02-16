@@ -9,6 +9,7 @@
     width: 90vw;
 
     @include phone {
+        padding-bottom: 6rem;
         flex-direction: column-reverse;
         align-items: flex-start;
     }
