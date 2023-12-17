@@ -1,11 +1,8 @@
 @import './device-sizes.scss';
 
 .fixed-background {
-  background: linear-gradient(30deg, rgba(0, 0, 0) 20%, rgba(80, 80, 255, .70) 55%, #ADFF00);
-  /* background-attachment: fixed; */
-  /* animation: gradient 15s ease infinite; */
-  /* background-size: 150% 150%; */
-  background-size: cover;
+  background: linear-gradient(224deg, #000000, #1400ff, #adff00);
+  background-size: 300% 300%;
   background-position: center center;
   z-index: 0;
   position: fixed;
@@ -13,6 +10,30 @@
   top: 0;
   right: 0;
   bottom: 0;
+  -webkit-animation: AnimationName 23s ease infinite;
+  -moz-animation: AnimationName 23s ease infinite;
+  -o-animation: AnimationName 23s ease infinite;
+  animation: AnimationName 23s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 91%}
+  50%{background-position:100% 10%}
+  100%{background-position:0% 91%}
 }
 
 .app {

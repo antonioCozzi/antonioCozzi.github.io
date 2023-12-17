@@ -16,7 +16,7 @@ function App() {
     window.addEventListener('scroll', () => {
       setScroll(window.scrollY > 50)
     })
-  })
+  }, [scroll])
 
   return (
     <>
