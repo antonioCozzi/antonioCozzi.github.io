@@ -1,3 +1,5 @@
+@import '../../device-sizes.scss';
+
 .contacts-container {
     padding: 1.4em 0;
 
@@ -8,6 +10,10 @@
 
         &:hover {
             color: #ADFF00;
+        }
+
+        @include phone {
+            font-size: 1rem;
         }
     }
 }

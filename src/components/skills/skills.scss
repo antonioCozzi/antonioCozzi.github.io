@@ -1,3 +1,5 @@
+@import '../../device-sizes.scss';
+
 .skills-container {
     padding: 2em 0;
     display: grid;
@@ -39,5 +41,10 @@
 
     *:nth-child(9) {
         grid-column: span 2;
+    }
+
+    @include phone {
+        display: flex;
+        flex-direction: column;
     }
 }
