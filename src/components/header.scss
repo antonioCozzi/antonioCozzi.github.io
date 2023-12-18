@@ -1,3 +1,5 @@
+@import '../device-sizes.scss';
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -9,6 +11,11 @@
         padding: 10px 40px;
         font-size: 0.8rem;
 
+        @include small-phone {
+            font-size: 0.6rem;
+            padding: 7px 15px;
+        }
+
         span {
             color: #fff;
         }
@@ -17,11 +24,19 @@
     .year {
         color: #fff;
         font-size: 1rem;
+
+        @include small-phone {
+            font-size: 0.6rem;
+        }
     }
 
     hr {
         border: 1px solid #fff;
         flex-grow: 1;
         margin: 0 22px;
+
+        @include small-phone {
+            margin: 0 12px;
+        }
     }
 }

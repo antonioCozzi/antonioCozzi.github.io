@@ -9,9 +9,6 @@ function Homepage() {
                     <p>Coz&zwnj;zi</p>
                 </div>
             </div>
-            <div className='pic-container'>
-                <object data="Profile Pic.svg" type="image/svg+xml"></object>
-            </div>
         </div>
     )
 }
